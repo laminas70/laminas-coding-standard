@@ -1,6 +1,6 @@
 # laminas-coding-standard
 
-[![Build Status](https://github.com/laminas/laminas-coding-standard/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/laminas/laminas-coding-standard/actions/workflows/continuous-integration.yml)
+[![Build Status](https://github.com/laminas70/laminas-coding-standard/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/laminas/laminas-coding-standard/actions/workflows/continuous-integration.yml)
 
 > ## 🇷🇺 Русским гражданам
 > 
@@ -20,7 +20,7 @@
 
 The coding standard ruleset for Laminas components.
 
-This specification extends and expands [PSR-12](https://www.php-fig.org/psr/psr-12),
+This specification extends and expands [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md),
 the extended coding style guide and requires adherence to [PSR-1](https://www.php-fig.org/psr/psr-1),
 the basic coding standard. These are minimal specifications and don't address all factors, including things like:
 
@@ -40,7 +40,7 @@ that's where this coding standard comes in: To have internal consistency in a co
 1. Install the module via composer by running:
 
    ```bash
-   composer require --dev laminas/laminas-coding-standard
+   composer require --dev laminas70/laminas-coding-standard
    ```
 
 2. Add composer scripts into your `composer.json`:
@@ -141,7 +141,7 @@ laminas-coding-standard globally with composer:
 
 ```bash
 $ composer global config repositories.laminas-coding-standard vcs git@github.com:<FORK_NAMESPACE>/laminas-coding-standard.git
-$ composer global require --dev laminas/laminas-coding-standard:dev-<FORKED_BRANCH>
+$ composer global require --dev laminas70/laminas-coding-standard:dev-<FORKED_BRANCH>
 
 # For this to work, add this to your path: ~/.composer/vendor/bin
 # Using `-s` prints the rules that triggered the errors so they can be reviewed easily. `-p` is for progress display.

@@ -5,7 +5,7 @@
 1. Install the module via Composer by running:
 
    ```bash
-   $ composer require --dev laminas/laminas-coding-standard
+   $ composer require --dev laminas70/laminas-coding-standard
    ```
 
 2. Add Composer scripts into your `composer.json`:
@@ -22,7 +22,7 @@
    ```xml
    <?xml version="1.0"?>
    <ruleset name="Laminas Coding Standard">
-       <rule ref="./vendor/laminas/laminas-coding-standard/ruleset.xml"/>
+       <rule ref="./vendor/laminas70/laminas-coding-standard/ruleset.xml"/>
 
        <!-- Paths to check -->
        <file>config</file>

@@ -18,4 +18,4 @@ nav:
         - 'Ruleset': v1/ruleset.md
 site_name: laminas-coding-standard
 site_description: 'The coding standard ruleset for Laminas components.'
-repo_url: 'https://github.com/laminas/laminas-coding-standard'
+repo_url: 'https://github.com/laminas70/laminas-coding-standard'
