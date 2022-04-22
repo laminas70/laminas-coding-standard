@@ -10,17 +10,14 @@
     "homepage": "https://laminas.dev",
     "license": "BSD-3-Clause",
     "require": {
-        "php": "^7.0.0",
+        "php": ">=7.0.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
         "slevomat70/coding-standard": "dev-master",
         "squizlabs/php_codesniffer": "^3.6",
         "webimpress70/coding-standard": "dev-master"
     },
     "config": {
-        "sort-packages": true,
-        "platform": {
-            "php": "7.0.0"
-        }
+        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
